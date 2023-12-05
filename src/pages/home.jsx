@@ -1,7 +1,5 @@
-
-import BgGradient from '../component/bgGradient'
-import Navbar from '../header.jsx/navbar'
-
+import Hero from '../component/hero'
+import Navbar from '../header/navbar'
 export default function Home() {
   
 
@@ -9,13 +7,7 @@ export default function Home() {
     <div className="bg-white">
         <Navbar/>
       <div className="relative isolate px-6 pt-14 lg:px-8">
-        <BgGradient>
-            <BgGradient.Top/>
-
-            <BgGradient.Botom/>
-        </BgGradient>
-        
-       
+        <Hero/>
       </div>
     </div>
   )
