@@ -13,8 +13,8 @@ function Navbar() {
 
   return (
     <>
-          <header className="absolute inset-x-0 top-0 z-50">
-        <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+          <header className="absolute inset-x-0 top-0 z-50 shadow-lg" >
+        <nav className="flex items-center justify-between p-3 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             
           </div>
@@ -30,7 +30,7 @@ function Navbar() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
           {navLink.map((item) => (
-              <Link key={item.nama} to={item.link} className="text-sm font-semibold leading-6 text-gray-900">
+              <Link key={item.nama} to={item.link} className="text-sm font-semibold leading-6 text-gray-500 hover:md:border-b-orange-400 border-b-2 hover:md:text-gray-900" >
                 {item.nama}
               </Link>
             ))}
