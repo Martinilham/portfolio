@@ -4,7 +4,13 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        hammer: ['hammerSmith', 'sans-serif'],
+        potrait: ['potraitOne', 'sans-serif'],
+        oswald: ['oswald', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

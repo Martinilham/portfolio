@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'hammerSmith';
+    src: url(../public/font/HammersmithOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'potraitOne';
+    src: url(../public/font/PoiretOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'oswald';
+    src: url(../public/font/Oswald-Regular.ttf);
+}
