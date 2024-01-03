@@ -18,7 +18,7 @@ import { useState } from 'react';
  return (
   <>
    <nav className="relative flex items-center justify-between flex-wrap p-3 bg-transparent">
-     <div className=" flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
+     <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
        <img src={require('../image/logo.png')} className="w-100 h-20 mr-2 ml-5" alt="Logo" />
      </div>
      <div className="block lg:hidden">

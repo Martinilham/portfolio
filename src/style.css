@@ -1,3 +1,5 @@
 body {
     background-color: #262533;
+    border: solid 2px black;
+    overflow-x: hidden;
 }

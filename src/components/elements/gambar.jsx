@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Image(props) {
+function Gambar(props) {
     const {className,gambar,alt}=props
   return (
     <>
@@ -8,4 +8,4 @@ function Image(props) {
     </>
   )
 }
-export default Image;
+export default Gambar;

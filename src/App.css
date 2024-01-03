@@ -16,3 +16,8 @@
     font-family: 'oswald';
     src: url(../public/font/Oswald-Regular.ttf);
 }
+
+@font-face {
+    font-family: 'inter';
+    src: url(../public/font/Inter-Bold.ttf);
+}

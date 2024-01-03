@@ -9,6 +9,7 @@ module.exports = {
         hammer: ['hammerSmith', 'sans-serif'],
         potrait: ['potraitOne', 'sans-serif'],
         oswald: ['oswald', 'sans-serif'],
+        inter: ['inter', 'sans-serif'],
       },
     },
   },
