@@ -17,15 +17,15 @@ const BuildItem = ()=>{
     return(
         <>
  
-            <div className="container ml-28 font-oswald mt-32">
-                <h3 className="text-sm text-orange-300 mb-3">Item</h3>
-                <h1 className="text-6xl text-white">Build Itemku</h1>
-                <hr className="w-32 mt-10 " style={{color:'#f9cc41'}}/>
+            <div className="container ml-4 mt-28 lg:ml-28 font-oswald lg:mt-32">
+                <h3 className="lg:text-sm text-orange-300 lg:mb-3">Item</h3>
+                <h1 className="text-3xl lg:text-6xl text-white">Build Itemku</h1>
+                <hr className="mt-3 w-28 lg:w-32 lg:mt-10 " style={{color:'#f9cc41'}}/>
             
-            <div className="container ml-28 flex mt-10">
+            <div className="container mt-10 lg:ml-28 flex lg:mt-10 lg:flex">
                 {tools.map((e)=>(
                     <Gambar
-                        className=' w-32 ml-6 '
+                        className='w-16 lg:w-32 lg:ml-6 '
                         gambar={e.logo}
                     />
                 ))}
