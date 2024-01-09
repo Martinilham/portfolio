@@ -22,10 +22,10 @@ const BuildItem = ()=>{
                 <h1 className="text-3xl lg:text-6xl text-white">Build Itemku</h1>
                 <hr className="mt-3 w-28 lg:w-32 lg:mt-10 " style={{color:'#f9cc41'}}/>
             
-            <div className="container mt-10 lg:ml-28 flex lg:mt-10 lg:flex">
+            <div data-aos="zoom-in-right" className=" container mt-10 lg:ml-28 flex lg:mt-10 lg:flex">
                 {tools.map((e)=>(
                     <Gambar
-                        className='w-16 lg:w-32 lg:ml-6 '
+                        className=' w-16 lg:w-32 lg:ml-6 '
                         gambar={e.logo}
                     />
                 ))}

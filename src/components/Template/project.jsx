@@ -5,13 +5,15 @@ import Button from "../elements/button";
 const Project = ()=>{
     return(
         <>
-            <div className="mt-10 lg:mt-44 lg:mx-auto  w-screen">
-                <Gambar
+            <div  className="mt-10 lg:mt-44 lg:mx-auto  w-screen">
+                <div data-aos="fade-right">
+                <Gambar 
                     className='mb-10 float-right lg:mb-32 lg:w-11/12'
                     gambar='Frame 17.png'
                 />
+                </div>
             
-                <div className="mx-auto text-center lg:mx-auto lg:text-center lg:mb-44 text-white w-screen">
+                <div data-aos="fade-left" className="mx-auto text-center lg:mx-auto lg:text-center lg:mb-44 text-white w-screen">
                     <h1 className="text-4xl lg:text-8xl font-inter lg:mb-5">Comming Soon</h1>
                     <h2 className="text-xl lg:text-4xl font-inter lg:mb-20">Project Masih Prosses</h2>
                 </div>
