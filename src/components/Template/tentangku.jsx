@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from '../elements/gambar';
 import Description from '../organism/description';
 import Button from '../elements/button';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Tentangku() {
   const kontak= [
@@ -10,11 +12,17 @@ function Tentangku() {
     {link:'',logo:'whatsapp.png'}
   ]
 
+  useEffect(()=>{
+    AOS.init({
+      duration: 1000
+    });
+  },[])
+
   return (
     <div className='flex flex-col  container bg-inherit -mt-20 mb-0 lg:flex-row'>
-      <div className='flex-1 mr-4 mt-1'>
+      <div className='flex-1 mr-4 mt-1' data-aos="zoom-in-left">
       <Image
-          className='w-5/12 mx-auto -mt-7 lg:ml-16 lg:w-10/12 lg:mt-8'
+          className=' w-5/12 mx-auto -mt-7 lg:ml-16 lg:w-10/12 lg:mt-8'
           gambar='profil2.png'
         />
       </div>
@@ -22,6 +30,7 @@ function Tentangku() {
       <div className='flex-1 mt-2 text-center lg:text-left lg:mt-32 text-white font-potrait '>
       <Description>
             <Description.Judul
+                
                 className='text-sm hidden lg:text-left  font-hammer text-amber-300'
                 title='-Tentangku'
             />

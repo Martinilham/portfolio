@@ -4,6 +4,7 @@ import Hero from "../Template/hero";
 import Project from "../Template/project";
 import Tentangku from "../Template/tentangku";
 import Image from "../elements/gambar";
+import "animate.css"
 
 function Home() {
   

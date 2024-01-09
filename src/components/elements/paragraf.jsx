@@ -4,7 +4,7 @@ const Paragraf = (props)=>{
     const {paragraf,className} = props
     return (
         <>
-        <p className={className}>
+        <p className={className} data-aos="fade-left">
             {paragraf}
         </p>
         </>

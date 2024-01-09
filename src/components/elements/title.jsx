@@ -4,7 +4,7 @@ const Title = (props)=>{
     const {title,className} = props
     return (
         <>
-        <h1 className={className}>{title}</h1>
+        <h1 className={className} data-aos="fade-left">{title}</h1>
         </>
     )
 }

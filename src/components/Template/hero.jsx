@@ -5,6 +5,8 @@ import Description from '../organism/description';
 import Button from '../elements/button';
 import Image from '../elements/gambar';
 import Navbar from '../organism/navbar';
+import "animate.css"
+
 
 function Hero() {
 
@@ -17,14 +19,14 @@ function Hero() {
     <>
     <Navbar/>
       <div className='mx-auto flex  flex-col text-center  -mt-44 lg:flex lg:text-left lg:flex-row lg:rotate-0  lg:mt-11'>
-        <div className='flex-1 w-14 lg:ml-14 lg:-mt-7 mx-auto lg:mx-0 rotate-90 lg:rotate-0 lg:flex-auto'>
+        <div className=' flex-1 w-14 lg:ml-14 lg:-mt-7 mx-auto lg:mx-0 rotate-90 lg:rotate-0 lg:flex-auto'>
           <Image
-            className=' w-10 lg:w-14'
+            className='animate__animated animate__slideInLeft w-10 lg:w-14 '
             gambar='textporfolio.png'
           />
         </div>
-        <div className='flex flex-col-reverse lg:flex lg:ml-6 lg:flex-row'>
-        <div className='flex-1 lg:flex-auto  lg:mt-16'>
+        <div className=' flex flex-col-reverse lg:flex lg:ml-6 lg:flex-row'>
+        <div className='animate__animated animate__slideInRight flex-1 lg:flex-auto  lg:mt-16'>
         <Description>
           <Label
             className='text-md lg:text-2xl text-white mt-4  lg:mt-0 font-hammer'
@@ -49,9 +51,9 @@ function Hero() {
 
         </Description>
         </div>
-        <div className='flex-1 lg:flex-auto '>
+        <div className=' flex-1 lg:flex-auto '>
           <Image
-          className=' w-6/12 -mt-40 lg:w-full lg:-mt-4 mx-auto'
+          className='animate__animated animate__zoomIn w-6/12 -mt-40 lg:w-full lg:-mt-4 mx-auto'
           gambar='profilIMG.png'
           alt='ini gambar'
           />

@@ -4,7 +4,7 @@ function Button(props) {
   const {nama,className} = props
     return (
         <>
-        <button className={className}>{nama}</button>
+        <button className={className} data-aos="zoom-in" >{nama}</button>
         </>
     )
 }
