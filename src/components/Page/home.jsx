@@ -10,7 +10,7 @@ function Home() {
   
 
   return (
-    <div className="w-screen" >
+    <div className="w-screen" style={{overflowX:'hidden'}}>
       <Hero/>
       <div className="" >
       <Image
