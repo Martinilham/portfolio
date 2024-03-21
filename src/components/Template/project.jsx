@@ -1,8 +1,10 @@
 import React from "react";
 import Gambar from "../elements/gambar";
-import Button from "../elements/button";
+import { Navigate } from "react-router-dom";
 
 const Project = ()=>{
+
+
     return(
         <>
             <div  className="mt-10 lg:mt-44 lg:mx-auto  w-screen">
@@ -21,7 +23,7 @@ const Project = ()=>{
                 <div className="w-screen mx-auto mt-10" >
                         <div className="flex w-3/4 mx-auto" style={{backgroundColor:'#f9cc41'}}>
                             <h2 className="flex-1 text-xl p-2 font-inter text-black align-middle lg:p-8 lg:text-4xl">Project Lainnya?</h2>
-                            <button className='text-sm float-right text-white m-8 px-6 py-2 lg:py-0 lg:px-6  ' style={{backgroundColor:'#262533',}}>Kunjungi</button>
+                            <button className='text-sm float-right text-white m-8 px-6 py-2 lg:py-0 lg:px-6  ' style={{backgroundColor:'#262533',}}><a href="https://github.com/Martinilham" >Kunjungi</a></button>
                         </div>
 
                 </div>
